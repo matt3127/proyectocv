@@ -4,7 +4,7 @@
 }
 /*formato columnas de la pagina*/
 .columnaizq {
-    max-width: 350px;
+    max-width: 432px;    
     background-color: rgb(66, 67, 68);
     color: whitesmoke;    
 }
@@ -38,10 +38,7 @@ h3{
 #derecha {
     color:black;
 }
-#derecha-2 {
-    margin-top:80%;
-    color:black;
-}
+
 h5 {
     font-size: 12px;
 
