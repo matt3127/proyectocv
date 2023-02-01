@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--data-bs-theme="dark" para modo oscuro-->
+<html lang="en" >  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!--Open graph data-->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/imagenes/sample.jpeg"/>
+    <meta property="og:url" content="http://www.example.com" />
+    <meta property="og:description" content="Documento evaluativo mostrando un curriculum vitae de una persona ficticia">
+    <!--Icono del tab-->
+    <link rel="icon" type="image/x-icon" href="/imagenes/card-list.svg"/>   
+    <!--Bootstrap link-->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--fuente de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!--Pagina de iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--Hoja propia de estilo-->
+    <link rel="stylesheet" type="text/css" href="/css/estilo.css" /> 
+</head>
+<body>
+
+<main>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <!--contenedor general de info izquierda-->
+      <div class="col-3 columnaizq">
+        <!--Foto rostro--> 
+        <div class="container">  
+          <div class="imagen">
+            <img src="/imagenes/face.png" class="rounded-circle" alt="Foto rostro"/>           
+          </div>          
+        </div>        
+        <hr class="my-3">
+
+          <!-- contenedor sobre mi-->        
+          <div class="container parte1" >
+            <h3>
+              Sobre Mí
+            </h3>
+            <p>
+              Apasionada y orientada a big data, graduada de economía en la Universidad de Florida. Voluntaria como tutor hacia estudiantes no graduados y conseguido pertenecer a la lista Dean's por 4 semestres consecutivos.
+            </p>
+          </div>
+          <!--Contenedor info personal-->          
+        <hr class="my-3">
+
+        <!--Contenedor habilidades--> 
+        <div class="container">          
+          <h3>
+            Habilidades
+          </h3> 
+          <!--lista y barras de habilidades-->         
+            <ul class="list-group">
+              <li class="list-group-item">MS Office y MS Access
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 93%"></div>
+               
+              <li class="list-group-item">SQL
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 80%"></div>                  
+              </li>
+
+              <li class="list-group-item">Razonamiento matematico
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 80%"></div>
+              </li>
+
+              <li class="list-group-item">Pensamiento critico-lógico
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 85%"></div>
+              </li>
+
+              <li class="list-group-item">Comunicación
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 70%"></div>
+                </li>
+            </ul>
+        </div>        
+        <hr class="my-3"> 
+        <!--Contenedor referencias-->     
+        <div class="container">
+          <h3>
+            Referencias
+          </h3>
+          <p>Apasionada y orientada a big data, graduada de economía en la Universidad de Florida. Voluntaria como tutor hacia estudiantes no graduados y conseguido pertenecer a la lista Dean's por 4 semestres consecutivos.   
+          </p>
+        </div>
+      </div>      
+      <!--Columna derecha de la pagina-->
+      <div class="col-6 align-items-center"> 
+        <header>
+          <h1> Josefina <br> Barroso</h1>
+          <h2>Analista de finanzas</h2>
+          <hr class="my-1">
+        </header>
+        <h3 id="derecha">          
+        Experiencia laboral         
+        </h3>
+        <hr>
+        <!--Fila(s) dentro de columna derecha-->
+        <div class="row">
+          <div class="col-2"> <!--columna chica dentro-->
+            <div class="row">
+              <h3 id="derecha">
+              IT company
+              </h3>
+              <h6>Desde fecha hasta fecha</h6>
+            </div> 
+            <div class="row">
+              <h3 id="derecha-2">
+              IT company
+              </h3>
+              <h6>Desde fecha hasta fecha</h6>
+            </div> 
+          </div>
+          <div class="col-6"><!--columna grande al lado de la chica-->
+            <div class="row">  
+              <h3 id="derecha">
+                Especialista en TI
+              </h3>     
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                        
+              
+            </div>
+            
+            <div class="row">  
+              <h3 id="derecha">
+                Especialista en TI
+              </h3>     
+              <p>Apasionada y orientada a big data, graduada de economía en la Universidad de Florida. Voluntaria como tutor hacia estudiantes no graduados</p>
+            </div>
+        </div>
+        </div>        
+      </div>
+      <div class="col-2">
+        
+        <div class="container iconitos"><!--Contenedor iconitos e info-->
+          <div>
+            <i class="bi bi-geo-alt-fill"></i>  Mar del Plata, Buenos Aires
+          </div>
+          <hr class="my-1">
+          <div>
+            <i class="bi bi-telephone-fill"></i>  +54 9 223 5887744
+          </div>
+          <hr class="my-1">
+          <div>
+            <i class="bi bi-envelope-at-fill"></i>  josefinabarroso@hotmail.com
+          </div>
+          <hr class="my-1">
+          <div><i class="bi bi-linkedin"></i>  linkedin.com/jbarroso</div>
+
+        </div>
+       
+    </div>
+    </div>
+  </div>
+</main>
+<nav>  
+</body>
