@@ -1,18 +1,17 @@
 *{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;    
+    font-weight: 300;        
 }
 /*formato columnas de la pagina*/
-.columnaizq {
-    max-width: 432px;    
+.colizquierda {        
     background-color: rgb(66, 67, 68);
-    color: whitesmoke;    
+    color: whitesmoke;
 }
 /*Foto rostro y titulo de la pagina*/
 .rounded-circle {    
         width: 70%;
         margin-top: 5%;
-        margin-left: 13%;
+        margin-left: 13%;        
         }
 header{
         margin-top:15px;
@@ -38,7 +37,6 @@ h3{
 #derecha {
     color:black;
 }
-
 h5 {
     font-size: 12px;
 
@@ -57,18 +55,16 @@ h5 {
 .progress-bar{
     background-color: rgb(93, 196, 209);
 }
+/*Iconos columna derecha*/
 .iconitos {
-    margin-top:15px;
-        
-}
-.border{
-    border-width: rgb(0, 0, 0);     
+    margin-top:15px;        
 }
 .table{
     border-collapse: separate;
-    border-spacing:0px 15px;
-        
+    border-spacing:0px 15px;            
 }
-.col-xxl-5 {
-    max-width: 750px;
+.fecha {
+    margin:-10px 0px 0px 0px;
+    
 }
+
