@@ -43,8 +43,8 @@
                 Sobre Mí
               </h3>
               <p>
-                Analista financiera con 6 años de experiencia. Experta identificando oportunidades para las áreas de negocio, ya sea para su traspaso, inversión, fusión o adquisición. 
-                <br>
+                Analista financiera con 6 años de experiencia.<br>
+                Experta identificando oportunidades para las áreas de negocio, ya sea para su traspaso, inversión, fusión o adquisición.<br>
                 Capaz de elaborar informes de las comañías identificadas y presentar los resultados a la dirección.
               </p>
             </div>                      
@@ -54,15 +54,16 @@
             <h3>
               Habilidades
             </h3> 
-            <!--lista y barras de habilidades-->         
+            <!--lista y barras de habilidades-->  
+            <!-- al tanto de no utilizar estilos inline pero bootstrap usa ese inline para setear en cada barra el porcentaje por separado, sin afectar a todos los class a la vez-->       
               <ul class="list-group">
                 <li class="list-group-item">MS Office y MS Access
                   <div class="progress" role="progressbar" aria-label="barra1" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar" style="width: 93%"></div></div> 
+                  <div class="progress-bar" style="width: 91%"></div></div> 
                 </li>                 
                 <li class="list-group-item">SQL
                   <div class="progress" role="progressbar" aria-label="barra2" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar" style="width: 80%"></div></div>                
+                  <div class="progress-bar" style="width: 75%"></div></div>                
                 </li>
                 <li class="list-group-item">Razonamiento matematico
                   <div class="progress" role="progressbar" aria-label="barra3" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -113,7 +114,7 @@
           </header>
           <div class="row"> <!--Fila contenedora y tabla de experiencia laboral-->
             
-            <h3 id="derecha">                      
+            <h3 class="derecha">                      
               Experiencia laboral
             </h3>                        
             <div class="container">
@@ -157,7 +158,7 @@
             </div> 
           </div>
           <div class="row"><!--Fila contenedora y tabla formacion academica-->
-            <h3 id="derecha">                      
+            <h3 class="derecha">                      
               Formación Académica         
             </h3>                       
             <div class="container text-left">
@@ -193,23 +194,25 @@
           </div>          
       </div>
         <div class="col col-lg-3 col-xxl-3 colderecha"> <!--Columna derecha, iconos--> 
-          <div class="row" >      
-          <div class="container iconitos">
-            <div>
+                
+          <div class="container coliconitos ">
+            <ul class="list-group">
+            <li class="list-group-item iconitos">
               <i class="bi bi-geo-alt-fill"></i>  Mar del Plata, Buenos Aires
-            </div>
+            </li>
             <hr class="my-1">
-            <div>
+            <li class="list-group-item iconitos">            
               <i class="bi bi-telephone-fill"></i>  +54 9 223 5887744
-            </div>
+            </li>
             <hr class="my-1">
-            <div>
+            <li class="list-group-item iconitos">
               <i class="bi bi-envelope-at-fill"></i>  josefinabarroso@hotmail.com
-            </div>
+            </li>
             <hr class="my-1">
+            <li class="list-group-item iconitos">
             <div><i class="bi bi-linkedin"></i>  linkedin.com/jbarroso</div>
-
-          </div>
+          </li>
+          
           
         </div>
       </div>

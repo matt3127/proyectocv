@@ -6,13 +6,22 @@
 .colizquierda {        
     background-color: rgb(66, 67, 68);
     color: whitesmoke;
-    max-width: 600px;
+    max-width: 452px;
 }
 .colcentro{
-    max-width: 800px;
+    max-width: 900px;
 }
 .colderecha{
-    max-width: 400px;
+    max-width: 350px;
+        
+}
+.table{
+    border-collapse: separate;
+    border-spacing:0px 20px;            
+}
+.fecha {
+    margin:-10px 0px 0px 0px;
+    
 }
 /*Foto rostro y titulo de la pagina*/
 .rounded-circle {    
@@ -50,7 +59,7 @@ h2 {
 h3{
     color:white;    
 }
-#derecha {
+.derecha {
     color:black;
     margin: 20px 0px 5px 0px;
 }
@@ -67,21 +76,18 @@ h5 {
     font-size: medium;
     background-color: rgba(255, 255, 255, 0);
     color:whitesmoke;
-    border-width: 0px;
+    border-width: 0px;    
 }
 .progress-bar{
     background-color: rgb(93, 196, 209);
 }
 /*Iconos columna derecha*/
 .iconitos {
-    margin-top:15px;        
+    all:none;    
+    color:rgb(0, 0, 0);            
 }
-.table{
-    border-collapse: separate;
-    border-spacing:0px 20px;            
+.coliconitos{
+    margin-top:15px;
 }
-.fecha {
-    margin:-10px 0px 0px 0px;
-    
-}
+
 
