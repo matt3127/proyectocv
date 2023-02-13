@@ -3,7 +3,7 @@
     "short_name": "CV",
     "start_url": "index.html",
     "scope": "./",
-    "theme_color": "#ffd31d",
+    "theme_color": "#424344",
     "background_color": "#333",
     "display": "standalone",  
     "icons": [
