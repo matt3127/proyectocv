@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;        
 }
-/*formato columnas de la pagina*/
+/*-----------formato columnas de la pagina----------------*/
 .colizquierda {        
     background-color: rgb(66, 67, 68);
     color: whitesmoke;
@@ -23,7 +23,7 @@
     margin:-10px 0px 0px 0px;
     
 }
-/*Foto rostro y titulo de la pagina*/
+/*------------Foto rostro y titulo de la pagina------------*/
 .rounded-circle {    
         width: 70%;
         margin-top: 5%;
@@ -34,7 +34,7 @@ header{
         margin-bottom:15px;    
     }
    
-/* Jerarquias texto */
+/* -------------------Jerarquias texto------------------- */
 .h1{
     font-family: 'Bebas Neue';
     font-weight: 500;    
@@ -67,7 +67,9 @@ h5 {
     font-size: 12px;
 
 }
-/*Barras de progreso*/
+
+/*----------------Barras de progreso-----------------*/
+
 .progress{
     height: 15px;
     color:aqua;
@@ -81,7 +83,10 @@ h5 {
 .progress-bar{
     background-color: rgb(93, 196, 209);
 }
-/*Iconos columna derecha*/
+
+
+/*---------------Iconos columna derecha-------------------*/
+
 .iconitos {
     all:none;    
     color:rgb(0, 0, 0);            
