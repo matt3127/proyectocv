@@ -1,14 +1,13 @@
 {
-    "lang": "es-ES",
+  
+    "start_url": "index.html",
     "name": "Curriculum vitae",
     "short_name": "CV",
     "description":"Un Curriculum como proyecto final para Ticmas Academy",
-    "start_URL": "/",   
     "scope": ".",
     "theme_color": "#424344",
     "background_color": "#333",
-    "display": "standalone",  
-    "service-worker-allowed": "/",
+    "display": "standalone", 
     "icons": [
       {
         "src": "/imagenes/windows11/SmallTile.scale-100.png",

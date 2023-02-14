@@ -7,7 +7,7 @@ self.addEventListener('install', event => {
     cache.addAll([
         '/',
         '/index.html',
-        '/manifest.json',
+        '/manifest.webmanifest',
         '/css/estilo.css',
         '/js/',
         '/js/miscripts.js', 
