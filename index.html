@@ -48,15 +48,15 @@
                 Secciones
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Sobre Mí</a></li>
-                <li><a class="dropdown-item" href="#">Habilidades</a></li>                
-                <li><a class="dropdown-item" href="#">Idiomas</a></li>
-                <li><a class="dropdown-item" href="#">Certificaciones</a></li>
+                <li><a class="dropdown-item" href="#item1">Sobre Mí</a></li>
+                <li><a class="dropdown-item" href="#item2">Habilidades</a></li>                
+                <li><a class="dropdown-item" href="#item3">Idiomas</a></li>
+                <li><a class="dropdown-item" href="#item4">Certificaciones</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Experiencia Laboral</a></li>
-                <li><a class="dropdown-item" href="#">Formación Académica</a></li>
+                <li><a class="dropdown-item" href="#derecha">Experiencia Laboral</a></li>
+                <li><a class="dropdown-item" href="#derecha1">Formación Académica</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Contacto</a></li>
+                <li><a class="dropdown-item" href="#item7">Contacto</a></li>
               </ul>
             </li>            
           </ul>
@@ -74,7 +74,7 @@
       </div>
     </nav> 
              
-    <div class="container-fluid">
+    <div data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container-fluid" tabindex="0">
       <div class="row vh-100">      
         <div class="col col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 colizquierda"> <!--Columna izquierda, info personal-->
           <!--Foto rostro--> 
@@ -85,14 +85,13 @@
             </div>        
             <hr class="my-3">
             <!-- contenedor sobre mi-->
-            <div class="container parte1" >
+            <div class="container" >
               <div id="nombreescondido">
-                
                 <h2>Josefina Barroso</h2>
                 <small class="text-muted text-reset alternativo">Analista de finanzas</small>
                 <hr class="my-3">                
               </div>
-              <h3>
+              <h3 id="item1">
                 Sobre Mí
               </h3>
               <p>
@@ -104,7 +103,7 @@
           <hr class="my-3">
           <!--Contenedor habilidades--> 
           <div class="container">          
-            <h3>
+            <h3 id="item2">
               Habilidades
             </h3>
             <!--lista y barras de habilidades-->  
@@ -135,7 +134,7 @@
           <hr class="my-3">
           <!--Contenedor idiomas--> 
           <div class="container">
-            <h3>Idiomas</h3>
+            <h3 id="item3">Idiomas</h3>
             <ul class="list-group">
               <li class="list-group-item">Inglés · C1 Advanced
                 <div class="progress" role="progressbar" aria-label="barra6" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -146,7 +145,7 @@
           <hr class="my-3">
           <!--Contenedor certificaciones-->     
           <div class="container">
-            <h3>
+            <h3 id="item4">
               Certificaciones
             </h3>
               <ul class="list-group">
@@ -246,7 +245,7 @@
           </div>          
         </div>
         <div class="col colderecha"> <!--Columna derecha, iconos col-lg-3 col-xxl-3-->                           
-          <div class="container coliconitos">
+          <div id="item7" class="container coliconitos">
             <ul class="list-group">  
               <li class="list-group-item iconitos">            
                 <i class="bi bi-telephone-fill"></i> <a href="#" class="link"> +54 9 223 5887744</a>
@@ -269,6 +268,7 @@
                 </div> 
               </span>                   
         </div>
+        <button onclick="topFunction()" id="arriba" title="Volver Arriba"><i class="bi bi-arrow-up-circle"></i></button>
       </div>
       </div>
     </div>

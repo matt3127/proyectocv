@@ -16,3 +16,18 @@ function modoclaro(){
     document.getElementById("derecha1").style.color ="black";
 }     
 //---------------------------------------------------------------------------------------------
+
+
+let arriba = document.getElementById("arriba");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    arriba.style.display = "block";
+  } else {
+    arriba.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
