@@ -27,6 +27,7 @@
 /*------------Foto rostro y titulo de la pagina------------*/
 .rounded-circle {    
         width: 70%;
+        height: 70%;
         margin-top: 5%;
         margin-left: 13%;        
         }
@@ -137,10 +138,10 @@ h5 {
   }
 #mapa{
     margin-top:10px;
-    margin-left:15px;
+    margin-left:10px;
 }
-.controlmapa{
-    margin-left: -15px;
+#mardel{
+    margin-left:6px;
 }
 /*----------------- Boton Hover para volver arriba -------------*/
 #arriba {

@@ -2,29 +2,33 @@
 <html lang="es" data-bs-theme="">  
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curriculum como proyecto final para ticmas academy"/>
+  <meta name="author" content="Matias Gareri"/>
+  <meta name="keywords" content="HTML, CSS, JavaScript, CV, Proyecto, informatica, ticmas, academy"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#424344"/>
+  <link rel="apple-touch-icon" href="/imagenes/ios/192.png">
   <title>Curriculum Vitae</title>
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/manifest.webmanifest"/>
   <!--Open graph data-->
     <meta property="og:title" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/imagenes/sample.jpeg"/>
     <meta property="og:url" content="http://www.example.com" />
-    <meta property="og:description" content="Documento evaluativo mostrando un curriculum vitae de una persona ficticia">
+    <meta property="og:description" content="Documento evaluativo mostrando un curriculum vitae de una persona ficticia"/>
   <!--Icono del tab-->
-    <link rel="icon" type="image/x-icon" href="/imagenes/android/android-launchericon-48-48.png">   
+    <link rel="icon" type="image/x-icon" href="/imagenes/android/android-launchericon-48-48.png"/>   
   <!--integracion bootstrap js y css-->    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <!--fuente de google-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"/>
   <!--Pagina de iconos bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
   <!--Hoja propia de estilo-->
-    <link rel="stylesheet" type="text/css" href="/css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="/css/estilo.css"/>
 </head>
 <body>
   <main>
@@ -37,7 +41,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--barra navegacion-->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">                      
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,26 +61,24 @@
             </li>            
           </ul>
           <div class="d-flex">
-            <button type="button" class="rounded-3 btn btn-primary" onclick="modoscuro()"><i class="bi bi-moon-stars-fill"></i></button>
-            <button type="button" class="rounded-3 btn btn-primary" onclick="modoclaro()"><i class="bi bi-brightness-high-fill"></i></button>              
+            <button type="button" aria-label="Modo oscuro" class="rounded-3 btn btn-primary" onclick="modoscuro()"><i class="bi bi-moon-stars-fill"></i></button>
+            <button type="button" aria-label="Modo claro" class="rounded-3 btn btn-primary" onclick="modoclaro()"><i class="bi bi-brightness-high-fill"></i></button>              
           </div>
           <hr class="my-3">
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
-
         </div>
       </div>
-    </nav> 
-             
+    </nav>   
     <div data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container-fluid" tabindex="0">
       <div class="row vh-100">      
         <div class="col col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 colizquierda"> <!--Columna izquierda, info personal-->
           <!--Foto rostro--> 
             <div class="container-md">  
               <div class="imagen">
-                <img src="/imagenes/face.png" class="rounded-circle" alt="Foto rostro"/>           
+                <img src="/imagenes/face.webp" class="rounded-circle" alt="Foto rostro"/>           
               </div>          
             </div>        
             <hr class="my-3">
@@ -93,7 +95,7 @@
               <p>
                 Analista financiera con 6 años de experiencia.<br>
                 Experta identificando oportunidades para las áreas de negocio, ya sea para su traspaso, inversión, fusión o adquisición.<br>
-                Capaz de elaborar informes de las comañías identificadas y presentar los resultados a la dirección.
+                Capaz de elaborar informes de las compañías identificadas y presentar los resultados a la dirección.
               </p>
             </div>                      
           <hr class="my-3">
@@ -257,19 +259,21 @@
               <hr class="my-1"> 
             </ul>             
             <div id="mapa" class="hover-text">
-              <p><i class="bi bi-geo-alt-fill"> </i>  Mar del Plata, Buenos Aires</p>
+              <p id="mardel"><i class="bi bi-geo-alt-fill"> </i>  Mar del Plata, Buenos Aires</p>
               <span class="tooltip-text">
                 <div class="container controlmapa">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.7414275719!2d-57.67057341800455!3d-38.01741063644555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1676330434963!5m2!1sen!2sar" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <img src="/imagenes/mapa.webp" class="mapa" alt="Mapa mar del plata"/>      
                 </div> 
-              </span>                   
+              </span>
             </div>
-            <button onclick="topFunction()" id="arriba" title="Volver Arriba"><i class="bi bi-arrow-up-circle"></i></button>
           </div>
         </div>
       </div>
-    </div>
-  </main> 
+    </div>  
+  </main>
+  </div>
+  <button onclick="topFunction()" id="arriba" title="Volver Arriba"><i class="bi bi-arrow-up-circle"></i></button>
+  </div> 
   <script src="/js/miscripts.js"></script>
   <script>
     if('serviceWorker' in navigator) {
