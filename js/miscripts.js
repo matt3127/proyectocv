@@ -31,3 +31,13 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+function isInstalled() {
+  // For iOS
+  if(window.navigator.standalone) return true
+
+  // For Android
+  if(window.matchMedia('(display-mode: standalone)').matches) return true
+
+  // If neither is true, it's not installed
+  return false
+}
