@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;        
 }
+
 /*-----------formato columnas de la pagina----------------*/
 .colizquierda {        
     background-color: #424344;
@@ -13,7 +14,7 @@
 }
 .colderecha{
     max-width: 350px;
-        
+    padding: 0px;
 }
 .table{
     border-collapse: separate;
@@ -97,7 +98,7 @@ h5 {
     border-width: 0px;    
 }
 .progress-bar{
-    background-color: rgb(93, 196, 209);
+    background-color: #5dc4d1;
 }
 
 
@@ -105,14 +106,39 @@ h5 {
 
 .iconitos {
     all:none;    
-    color:rgb(0, 0, 0);            
+    color:#000000;            
 }
 .coliconitos{
     margin-top:15px;
+    margin-left:0px;
+    max-width: 310px;    
 }
 .btn-primary{
-    background:#424344;
-    border-color:rgb(87, 87, 87);
-    --bs-btn-hover-bg: #0dcaf0;
+    background:#ececec;
+    color:#5a5a5a;
+    border-color:rgb(211, 211, 211);
+    --bs-btn-hover-bg: #686868;
+    --bs-btn-hover-border-color:rgb(54, 54, 54);
 }
+.link{
+    color:#2e93a0;
+}
+.visible {
+    height: 3em;
+    width: 10em;    
+  }
 
+.tooltip-text{
+    visibility: hidden;
+    z-index: 1;
+}
+.hover-text:hover .tooltip-text {
+    visibility: visible;    
+  }
+#mapa{
+    margin-top:10px;
+    margin-left:15px;
+}
+.controlmapa{
+    margin-left: -15px;
+}
