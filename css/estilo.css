@@ -2,6 +2,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;        
 }
+.dropdown-item{
+    --bs-dropdown-link-active-bg: #008585;
+}
 
 /*-----------formato columnas de la pagina----------------*/
 .colizquierda {        
@@ -89,7 +92,7 @@ h5 {
 
 .progress{
     height: 15px;
-    color:aqua;
+    color: #00ffff;
 }
 .list-group-item{
     font-size: medium;
