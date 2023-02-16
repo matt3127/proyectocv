@@ -1,16 +1,10 @@
 const CACHE_NAME = 'curriculum';
 
-// Use the install event to pre-cache all initial resources.
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
         '/',
-        '/index.html',
-        '/manifest.webmanifest',
-        '/css/estilo.css',
-        '/js/',
-        '/js/miscripts.js', 
     ]);
   })());
 });
@@ -37,3 +31,4 @@ self.addEventListener('fetch', event => {
     }
   })());
 });
+

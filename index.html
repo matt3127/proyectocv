@@ -10,7 +10,7 @@
   <meta name="theme-color" content="#424344">
   <link rel="apple-touch-icon" href="/imagenes/ios/192.png">
   <title>Curriculum Vitae</title>
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/manifest.json">
   <!--Open graph data-->
     <meta property="og:title" content="" />
     <meta property="og:type" content="website" />
@@ -245,6 +245,7 @@
         </div>
         <div class="col colderecha"> <!--Columna derecha, iconos col-lg-3 col-xxl-3-->                           
           <div id="item7" class="container coliconitos">
+            <h3 id="derecha3" class="derecha">Contacto</h3>
             <ul class="list-group">  
               <li class="list-group-item iconitos">            
                 <i class="bi bi-telephone-fill"></i> <a href="#" class="link"> +54 9 223 5887744</a>
@@ -258,17 +259,18 @@
                 <i class="bi bi-linkedin"> </i><a href="#" class="link"> linkedin.com/jbarroso</a>            
               </li> 
               <hr class="my-1"> 
-            </ul>             
-            <div id="mapa" class="hover-text">
-              <p id="mardel"><i class="bi bi-geo-alt-fill"> </i>  Mar del Plata, Buenos Aires</p>
-              <span class="tooltip-text">
-                <div class="container controlmapa"> <!--anteriormente esta era una API de google maps pero no solo traia errores sino tracking innecesario, cookies y sobrecarga a la pag-->
-                  <img src="/imagenes/mapa.webp" class="mapa" alt="Mapa mar del plata"/>      
-                </div> 
+            </ul>  
+            <div class="popup mardel" onclick="myFunction()"><i class="bi bi-geo-alt-fill"></i><a class="link">  Mar del Plata, Buenos Aires</a>
+              <span class="popuptext" id="myPopup">
+                <div class="container"> <!--anteriormente esta era una API de google maps pero no solo traia errores sino tracking innecesario, cookies y sobrecarga a la pag-->
+                  <img src="/imagenes/mapa.webp" alt="Mapa mar del plata"/>
+                </div>
               </span>
-            </div>
+            </div> 
+              
           </div>
         </div>
+        
       </div>
     </div>  
   </main>
@@ -276,10 +278,10 @@
   <button onclick="topFunction()" id="arriba" title="Volver Arriba"><i class="bi bi-arrow-up-circle"></i></button>
   </div> 
   <script src="/js/miscripts.js"></script>
-  <script>
+  <!--<script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { scope: '/' });
     }
-  </script>
+  </script>-->
 </body>
 </html>
