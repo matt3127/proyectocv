@@ -30,3 +30,5 @@ Bibliografía utilizada para generar contenido:
   Bootstrap documentation
   Microsoft (para implementar PWA)
   
+Problemas a la hora de implementar: 
+  Google maps api: por excesivas cookies y tracking y desconocomiento de como restringir éstas mismas, opte por reemplazar la api por una imagen. Dicha imagen aparece al hacer click al link 'Mar del Plata' en la columna derecha de la pagina web
