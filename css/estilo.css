@@ -30,14 +30,14 @@
 }
 /*------------Foto rostro y titulo de la pagina------------*/
 .rounded-circle {    
-        width: 70%;
-        height: 70%;
-        margin-top: 5%;
-        margin-left: 13%;        
-        }
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 13%;        
+    }
 header{
-        margin-top:15px;
-        margin-bottom:15px;    
+    margin-top:15px;
+    margin-bottom:15px;    
     }
 #nombreescondido{
     display:block;
@@ -150,13 +150,13 @@ h5 {
   }
   .popup .popuptext::after {
     content: " ";
-  position: absolute;
-  bottom: 100%;  
-  left: 20%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #505050;
+    position: absolute;
+    bottom: 100%;  
+    left: 20%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #505050;
   }
   .popup .show {
     visibility: visible;

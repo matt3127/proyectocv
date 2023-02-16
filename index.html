@@ -33,6 +33,7 @@
 </head>
 <body>
   <main>
+    <!----------------------------------barra navegacion--------------------------->
     <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -42,7 +43,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--barra navegacion-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">                      
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,28 +78,28 @@
       <div class="row vh-100">      
         <div class="col col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 colizquierda"> <!--Columna izquierda, info personal-->
           <!--Foto rostro--> 
-            <div class="container-md">  
-              <div class="imagen">
-                <img src="/imagenes/face.webp" class="rounded-circle" alt="Foto rostro"/>           
-              </div>          
-            </div>        
-            <hr class="my-3">
-            <!-- contenedor sobre mi-->
-            <div class="container" >
-              <div id="nombreescondido">
-                <h2>Josefina Barroso</h2>
-                <small class="text-muted text-reset alternativo">Analista de finanzas</small>
-                <hr class="my-3">                
-              </div>
-              <h3 id="item1">
-                Sobre Mí
-              </h3>
-              <p>
-                Analista financiera con 6 años de experiencia.<br>
-                Experta identificando oportunidades para las áreas de negocio, ya sea para su traspaso, inversión, fusión o adquisición.<br>
-                Capaz de elaborar informes de las compañías identificadas y presentar los resultados a la dirección.
-              </p>
-            </div>                      
+          <div class="container-md">  
+            <div class="imagen">
+              <img src="/imagenes/face.webp" class="rounded-circle" alt="Foto rostro"/>           
+            </div>          
+          </div>        
+          <hr class="my-3">
+          <!-- contenedor sobre mi-->
+          <div class="container" >
+            <div id="nombreescondido">
+              <h2>Josefina Barroso</h2>
+              <small class="text-muted text-reset alternativo">Analista de finanzas</small>
+              <hr class="my-3">                
+            </div>
+            <h3 id="item1">
+              Sobre Mí
+            </h3>
+            <p>
+              Analista financiera con 6 años de experiencia.<br>
+              Experta identificando oportunidades para las áreas de negocio, ya sea para su traspaso, inversión, fusión o adquisición.<br>
+              Capaz de elaborar informes de las compañías identificadas y presentar los resultados a la dirección.
+            </p>
+          </div>                      
           <hr class="my-3">
           <!--Contenedor habilidades--> 
           <div class="container">          
@@ -243,45 +244,43 @@
             </div> 
           </div>          
         </div>
-        <div class="col colderecha"> <!--Columna derecha, iconos col-lg-3 col-xxl-3-->                           
+        <div class="col colderecha"> <!--Columna derecha, iconos-->                           
           <div id="item7" class="container coliconitos">
             <h3 id="derecha3" class="derecha">Contacto</h3>
             <ul class="list-group">  
               <li class="list-group-item iconitos">            
-                <i class="bi bi-telephone-fill"></i> <a href="#" class="link"> +54 9 223 5887744</a>
+                <i id="ico1" class="bi bi-telephone-fill"></i> <a href="#" class="link"> +54 9 223 5887744</a>
               </li>
               <hr class="my-1">
               <li class="list-group-item iconitos">
-                <i class="bi bi-envelope-at-fill"> </i><a href="#" class="link"> josefinabarroso@hotmail.com</a>
+                <i id="ico2" class="bi bi-envelope-at-fill"> </i><a href="#" class="link"> josefinabarroso@hotmail.com</a>
               </li>
               <hr class="my-1">
               <li class="list-group-item iconitos">
-                <i class="bi bi-linkedin"> </i><a href="#" class="link"> linkedin.com/jbarroso</a>            
+                <i id="ico3" class="bi bi-linkedin"> </i><a href="#" class="link"> linkedin.com/jbarroso</a>            
               </li> 
               <hr class="my-1"> 
             </ul>  
-            <div class="popup mardel" onclick="myFunction()"><i class="bi bi-geo-alt-fill"></i><a class="link">  Mar del Plata, Buenos Aires</a>
-              <span class="popuptext" id="myPopup">
+            <div class="popup mardel" onclick="mapa()"><i id="ico4" class="bi bi-geo-alt-fill iconitos"> </i><a class="link"> Mar del Plata, Buenos Aires</a>
+              <span class="popuptext" id="popmapa">
                 <div class="container"> <!--anteriormente esta era una API de google maps pero no solo traia errores sino tracking innecesario, cookies y sobrecarga a la pag-->
                   <img src="/imagenes/mapa.webp" alt="Mapa mar del plata"/>
                 </div>
               </span>
             </div> 
-              
           </div>
         </div>
-        
       </div>
     </div>  
   </main>
-  </div>
-  <button onclick="topFunction()" id="arriba" title="Volver Arriba"><i class="bi bi-arrow-up-circle"></i></button>
+  <div>
+    <button onclick="topFunction()" id="arriba" title="Volver Arriba"><i class="bi bi-arrow-up-circle"></i></button>
   </div> 
   <script src="/js/miscripts.js"></script>
-  <!--<script>
+  <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { scope: '/' });
     }
-  </script>-->
+  </script>
 </body>
 </html>

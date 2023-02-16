@@ -1,27 +1,36 @@
 //-----------------cambia el nombre de la persona segun ancho pantalla--------------------------------------------
 if (outerWidth>450){
-    document.getElementById("nombreescondido").style.display = 'none';
-    document.getElementById("nombreescondido2").style.display = 'block';
+  document.getElementById("nombreescondido").style.display = 'none';
+  document.getElementById("nombreescondido2").style.display = 'block';
 };
-
 //-------------------------------botones modo claro y oscuro------------------------------------------------------
-function modoscuro(){      
-            document.documentElement.setAttribute('data-bs-theme','dark');
-            //document.getElementsByClassName("iconitos").style.color = "white";
-            document.getElementById("derecha").style.color ="white";
-            document.getElementById("derecha1").style.color ="white";
-            document.getElementById("derecha3").style.color ="white";
-
-            } 
+{
+const b="black", w="white"
+function modoscuro(){
+  document.documentElement.setAttribute('data-bs-theme','dark');
+  document.getElementById("ico1").style.color = w;
+  document.getElementById("ico2").style.color = w;
+  document.getElementById("ico3").style.color = w;
+  document.getElementById("ico4").style.color = w;
+  document.getElementById("ico4").style.color = w;
+  document.getElementById("derecha").style.color =w;
+  document.getElementById("derecha1").style.color =w;
+  document.getElementById("derecha3").style.color =w;
+} 
 function modoclaro(){
-    document.documentElement.setAttribute('data-bs-theme', 'a');
-    document.getElementById("derecha").style.color ="black";
-    document.getElementById("derecha1").style.color ="black";
-    document.getElementById("derecha3").style.color ="black";
+  document.documentElement.setAttribute('data-bs-theme', 'a');
+  document.getElementById("derecha").style.color = b;
+  document.getElementById("derecha1").style.color = b;
+  document.getElementById("derecha3").style.color = b;
+  document.getElementById("ico1").style.color = b;
+  document.getElementById("ico2").style.color = b;
+  document.getElementById("ico3").style.color = b;
+  document.getElementById("ico4").style.color = b;
 }     
+}
 //-----------------------------------pop up mapa mardel----------------------------------------------------------
-function myFunction() {
-  var popup = document.getElementById("myPopup");
+function mapa() {
+  var popup = document.getElementById("popmapa");
   popup.classList.toggle("show");
 }
 //-------------------------------------------boton hover volver arriba------------------------------------------
@@ -41,12 +50,7 @@ function topFunction() {
 
 //-------------------------check pwa service activo o no--------------------------------------------------------
 function isInstalled() {
-  // For iOS
   if(window.navigator.standalone) return true
-
-  // For Android
   if(window.matchMedia('(display-mode: standalone)').matches) return true
-
-  // If neither is true, it's not installed
   return false
 }
